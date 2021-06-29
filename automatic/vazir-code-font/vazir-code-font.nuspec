@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>vazir-code-font</id>
+    <version>1.1.2</version>
+    <title>Vazir Code font</title>
+    <authors>Saber Rastikerdar</authors>
+    <owners>Muhammad Hussein Ammari</owners>
+    <licenseUrl>https://raw.githubusercontent.com/rastikerdar/vazir-code-font/master/LICENSE</licenseUrl>
+    <projectUrl>https://rastikerdar.github.io/vazir-code-font/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/vazir-code-font.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>a Free Monospaced Font for coding for Arabic-script languages including Persian (Farsi), Arabic, Kurdish (Sorani), Pashto, Urdu and Gilaki languages.
+## Sample
+![Sample](https://pbs.twimg.com/media/CqHsQEuW8AA0ta7?format=jpg)
+## Notes
+- Related packages: [vazir-font](https://chocolatey.org/packages/vazir-font)</description>
+    <summary>Vazir Code open-source font.</summary>
+    <releaseNotes>https://github.com/rastikerdar/vazir-code-font/commits/master</releaseNotes>
+    <tags>font arabic persian farsi kurdish sorani pashto urdu gilaki saberrastikerdar vazir vazircode</tags>
+    <projectSourceUrl>https://github.com/rastikerdar/vazir-code-font/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/vazir-code-font</packageSourceUrl>
+    <docsUrl>https://github.com/rastikerdar/vazir-code-font/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/rastikerdar/vazir-code-font/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="chocolatey-font-helpers.extension" version="0.0.3.1" />
+    </dependencies>
+  </metadata>
+</package>

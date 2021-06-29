@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>singleinstance</id>
+    <version>1.0.0</version>
+    <title>SingleInstance</title>
+    <authors>Sergey Svistunov</authors>
+    <owners>Muhammad Hussein Ammari</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/zenden2k/context-menu-launcher/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://zenden2k.com/blog/2015/07/26/how-to-pass-multiple-files-to-shell-context-menu-command-windows-explorer-10</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/singleinstance.png</iconUrl>
+    <description>The main idea is that one instance of my program will be launched per file you have selected. It is checking if another instance of singleinstance program is running, and using Inter-Process Communication to notify the existing instance that other files have been selected.
+
+Do not forget to set registry option MultiSelectModel=Player, otherwise number of files will be limited.
+
+```
+Usage: singleinstance.exe "%1" {command} $files [arguments]
+
+Optional arguments for singleinstance (not passed to command):
+
+--si-timeout {time to wait in msecs}
+```
+
+Sample registry file:
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.txt\Shell\p4merge]
+"MultiSelectModel"="Player"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.txt\Shell\p4merge\Command]
+@="\"d:\\singleinstance.exe\" \"%1\" \"C:\\Program Files\\Perforce\\p4merge.exe\" $files --si-timeout 400"
+```</description>
+    <summary>Select multiple files from Windows Explorer menu and launch just one instance of process.</summary>
+    <releaseNotes>https://github.com/zenden2k/context-menu-launcher/commits/master</releaseNotes>
+    <copyright>© 2015 Sergey Svistunov</copyright>
+    <tags>windows open-source</tags>
+    <packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/singleinstance</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/zenden2k/context-menu-launcher/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/zenden2k/context-menu-launcher</projectSourceUrl>
+  </metadata>
+</package>

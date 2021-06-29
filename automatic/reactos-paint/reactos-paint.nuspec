@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>reactos-paint</id>
+    <version>0.4.15</version>
+    <title>ReactOS Paint</title>
+    <authors>ReactOS Development Team</authors>
+    <owners>Muhammad Hussein Ammari</owners>
+    <licenseUrl>https://raw.githubusercontent.com/reactos/reactos/master/COPYING</licenseUrl>
+    <projectUrl>https://reactos.org/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/reactos-paint.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Clone of Microsoft's Paint program, copying most closely the version that was included with Windows Vista.</description>
+    <summary>ReactOS Paint</summary>
+    <releaseNotes>https://github.com/reactos/reactos/commits/master</releaseNotes>
+    <tags>reactos paint</tags>
+    <projectSourceUrl>https://github.com/reactos/reactos</projectSourceUrl>
+    <packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/reactos-paint</packageSourceUrl>
+    <bugTrackerUrl>https://jira.reactos.org/issues</bugTrackerUrl>
+  </metadata>
+</package>

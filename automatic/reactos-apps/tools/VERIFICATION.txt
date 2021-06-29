@@ -1,0 +1,26 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+How to verification files?
+1. Go to https://reactos.org/getbuilds/
+2. Check "Live CDs", "x86 MSVC Debug", "x64 MSVC Debug"
+3. Click on search button
+4. Now you can see  reactos-livecd-*-x64-msvc-win-dbg.7z and reactos-livecd-*-x86-msvc-win-dbg.7z; Download them.
+https://iso.reactos.org/livecd/reactos-livecd-0.4.15-dev-1533-g54d6fab-x64-msvc-win-dbg.7z
+https://iso.reactos.org/livecd/reactos-livecd-0.4.15-dev-1533-g54d6fab-x86-msvc-win-dbg.7z
+5. Extract *.7z
+6. Also extract ISO files in 7z files
+7. Now go to this path: \reactos\system32\rapps.exe
+
+checksum type: sha256
+  checksum32: 2d8171290adf9ec9e1069b5e473faad5816ca945c1df79dcb6d50059ee6c2c9d
+  checksum64: 8c863b60ffc72f8e355c9ad4b9556989dfab9d31ff6ec3750db4a663d92f39bf
+
+URL of 'LICENSE.txt': https://raw.githubusercontent.com/reactos/reactos/master/COPYING
+
+SHA-256 can also be obtained in these steps:
+
+ 1. Go to homepage.
+ 2. Under section “Download cfr”, find link with version number.
+ 3. Download the file and verify its checksum.

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>reactos-apps</id>
+    <version>0.4.15</version>
+    <title>ReactOS Applications Manager</title>
+    <authors>ReactOS Development Team</authors>
+    <owners>Muhammad Hussein Ammari</owners>
+    <licenseUrl>https://raw.githubusercontent.com/reactos/reactos/master/COPYING</licenseUrl>
+    <projectUrl>https://reactos.org/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/reactos-apps.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>By ReactOS Applications Manager, you can download and install various applications.</description>
+    <summary>ReactOS Applications Manager</summary>
+    <releaseNotes>https://github.com/reactos/reactos/commits/master</releaseNotes>
+    <tags>reactos</tags>
+    <projectSourceUrl>https://github.com/reactos/reactos</projectSourceUrl>
+    <packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/reactos-apps</packageSourceUrl>
+    <bugTrackerUrl>https://jira.reactos.org/issues</bugTrackerUrl>
+  </metadata>
+</package>

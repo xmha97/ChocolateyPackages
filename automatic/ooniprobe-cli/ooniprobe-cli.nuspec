@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ooniprobe-cli</id>
+    <version>3.8.0</version>
+    <title>OONI Probe CLI</title>
+    <authors>OONI</authors>
+    <owners>Muhammad Hussein Ammari</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/ooni/probe-cli/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://ooni.org/install/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/ooniprobe-cli.png</iconUrl>
+    <description>OONI Probe is free and open source software designed to measure internet censorship and other forms of network interference.
+    Every month, thousands of networks are measured by OONI Probe users in more than 200 countries. Since 2012, millions of network measurements have been published from around the world.</description>
+    <summary>The next generation OONI Probe Command Line Interface.</summary>
+    <releaseNotes>https://github.com/ooni/probe-cli/commits/master</releaseNotes>
+    <copyright>© 2020 Open Observatory of Network Interference (OONI)</copyright>
+    <tags>internet censorship internet-censorship open-source ooniprobe ooni</tags>
+    <packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/ooniprobe-cli</packageSourceUrl>
+    <docsUrl>https://github.com/ooni/spec/wiki/_pages</docsUrl>
+    <mailingListUrl>https://slack.ooni.org/</mailingListUrl>
+    <bugTrackerUrl>https://github.com/ooni/probe-cli/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/ooni/probe-cli</projectSourceUrl>
+  </metadata>
+</package>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>jsshell</id>
+    <version>86.0</version>
+    <title>Mozilla JS Shell</title>
+    <authors>Mozilla</authors>
+    <owners>Muhammad Hussein Ammari</owners>
+    <licenseUrl>https://www.mozilla.org/en-US/MPL/2.0/</licenseUrl>
+    <projectUrl>https://www.mozilla.org/en-US/firefox/new/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/jsshell.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Mozilla JavaScript shell allows you to quickly test snippets of JavaScript code without having to reload a web page. They are extremely useful for developing and debugging code.</description>
+    <summary>Mozilla JavaScript shell</summary>
+    <releaseNotes>https://www.mozilla.org/en-US/firefox/releases/</releaseNotes>
+    <copyright>Copyright © 1998–2021 Mozilla</copyright>
+    <tags>mozilla firefox foss cross-platform jsshell</tags>
+    <packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/jsshell</packageSourceUrl>
+    <docsUrl>https://developer.mozilla.org/en-US/Firefox</docsUrl>
+    <bugTrackerUrl>https://bugzilla.mozilla.org/</bugTrackerUrl>
+  </metadata>
+</package>

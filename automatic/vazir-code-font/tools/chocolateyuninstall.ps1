@@ -1,0 +1,18 @@
+$ErrorActionPreference = 'Stop'
+
+Uninstall-ChocolateyFont "Vazir-Code.ttf"
+Uninstall-ChocolateyFont "Vazir-Code-Hack.ttf"
+Uninstall-ChocolateyFont "Vazir-Code-Hack-Extra-Height.ttf"
+Uninstall-ChocolateyFont "Vazir-Code-Extra-Height.ttf"
+Uninstall-ChocolateyFont "Farsi-Digits\Vazir-Code-Hack-FD.ttf"
+Uninstall-ChocolateyFont "Farsi-Digits\Vazir-Code-Hack-Extra-Height-FD.ttf"
+Uninstall-ChocolateyFont "Farsi-Digits\Vazir-Code-FD.ttf"
+Uninstall-ChocolateyFont "Farsi-Digits\Vazir-Code-Extra-Height-FD.ttf"
+Uninstall-ChocolateyFont "Farsi-Digits-Without-Latin\Vazir-Code-Hack-FD-WOL.ttf"
+Uninstall-ChocolateyFont "Farsi-Digits-Without-Latin\Vazir-Code-Hack-Extra-Height-FD-WOL.ttf"
+Uninstall-ChocolateyFont "Farsi-Digits-Without-Latin\Vazir-Code-FD-WOL.ttf"
+Uninstall-ChocolateyFont "Farsi-Digits-Without-Latin\Vazir-Code-Extra-Height-FD-WOL.ttf"
+Uninstall-ChocolateyFont "Without-Latin\Vazir-Code-WOL.ttf"
+Uninstall-ChocolateyFont "Without-Latin\Vazir-Code-Hack-WOL.ttf"
+Uninstall-ChocolateyFont "Without-Latin\Vazir-Code-Hack-Extra-Height-WOL.ttf"
+Uninstall-ChocolateyFont "Without-Latin\Vazir-Code-Extra-Height-WOL.ttf"

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>borna-fonts</id>
+    <version>2.1</version>
+    <title>Borna Fonts Pack</title>
+    <authors>Borna Rayaneh</authors>
+    <owners>Muhammad Hussein Ammari</owners>
+    <licenseUrl>https://raw.githubusercontent.com/bornaray/borna-fonts/main/LICENSE</licenseUrl>
+    <projectUrl>http://www.bornaray.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/borna-fonts.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The most complete and popular Persian font package.</description>
+    <summary>Persian B font series</summary>
+	<releaseNotes>https://github.com/bornaray/borna-fonts/commits/main</releaseNotes>
+    <copyright>Copyright © 2021 Bornaray co.</copyright>
+    <tags>font arabic persian farsi kurdish sorani pashto urdu gilaki</tags>
+    <projectSourceUrl>https://github.com/bornaray/borna-fonts/</projectSourceUrl>    
+	<packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/borna-fonts/</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/bornaray/borna-fonts/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="chocolatey-font-helpers.extension" version="0.0.3.1" />
+    </dependencies>
+  </metadata>
+</package>
