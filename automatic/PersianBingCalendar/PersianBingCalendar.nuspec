@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>PersianBingCalendar</id>
+    <version>2.2-update-2</version>
+    <title>PersianBingCalendar</title>
+    <authors>Vahid Nasiri</authors>
+    <owners>Muhammad Hussein Ammari</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/VahidN/PersianBingCalendar/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://www.dntips.ir/NewsArchive/Details/11270</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/persianbingcalendar.png</iconUrl>
+    <description>این برنامه آخرین تصاویر موتور جستجوی بینگ را دریافت کرده، سپس تقویم شمسی ماه را به همراه تعطیلات رسمی آن، بر روی این تصویر ترسیم کرده و در آخر آن‌را به عنوان پس‌زمینه ویندوز، به صورت خودکار تنظیم می‌کند.</description>
+    <summary>Bing daily wallpaper images with Persian calendar</summary>
+    <releaseNotes>https://github.com/VahidN/PersianBingCalendar/commits/master</releaseNotes>
+    <copyright>Copyright © 2017-2021 Vahid Nasiri</copyright>
+    <tags>Persian Bing Calendar Farsi</tags>
+    <packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/PersianBingCalendar</packageSourceUrl>
+    <docsUrl>https://github.com/VahidN/PersianBingCalendar/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/VahidN/PersianBingCalendar/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/VahidN/PersianBingCalendar</projectSourceUrl>
+  </metadata>
+</package>
