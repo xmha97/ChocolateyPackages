@@ -9,7 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/VahidN/PersianBingCalendar/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://www.dntips.ir/NewsArchive/Details/11270</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/persianbingcalendar.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/PersianBingCalendar.png</iconUrl>
     <description>این برنامه آخرین تصاویر موتور جستجوی بینگ را دریافت کرده، سپس تقویم شمسی ماه را به همراه تعطیلات رسمی آن، بر روی این تصویر ترسیم کرده و در آخر آن‌را به عنوان پس‌زمینه ویندوز، به صورت خودکار تنظیم می‌کند.</description>
     <summary>Bing daily wallpaper images with Persian calendar</summary>
     <releaseNotes>https://github.com/VahidN/PersianBingCalendar/commits/master</releaseNotes>
