@@ -1,7 +1,7 @@
 $packageName    = 'PersianBingCalendar'
-$url            = "https://github.com/VahidN/PersianBingCalendar/releases/download/V$env:ChocolateyPackageVersion/PersianBingCalendar.V2.2-update-2.zip"
+$url            = "https://github.com/VahidN/PersianBingCalendar/releases/download/V$env:ChocolateyPackageVersion/PersianBingCalendar.V$env:ChocolateyPackageVersion.zip"
 $toolsDir       = "$env:LOCALAPPDATA\PersianBingCalendar"
-$checksum       = '090ec9226768fc54470ad01e97ae5d01508f5a2228ab6b4d1b4265dcff494a64'
+$checksum       = 'cfddf09d87d74c62281554effe51d638395367c92aca85399479d9e0410b620b'
 $checksumType   = 'sha256'
 
 Install-ChocolateyZipPackage `
