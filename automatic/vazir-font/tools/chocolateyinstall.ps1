@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = "https://github.com/rastikerdar/vazir-font/releases/download/v$env:ChocolateyPackageVersion/vazir-font-v$env:ChocolateyPackageVersion.zip"
-$myChecksum = '1927f0ea7b8e453ce0808f3b24ad0c49614f08f7d9622b09722a53541ea95b15'
+$myChecksum = '1bee67cac9a6ac4f16bd3c91d1f1b990c5e803fc0cab3c63ca05531c9f759b48'
 
 $packageArgs = @{
   softwareName  = 'Vazir font'
