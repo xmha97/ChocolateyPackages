@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>speedtest</id>
-    <version>1.0.0.2</version>
+    <version>1.1.1</version>
     <title>Speedtest by Ookla</title>
     <authors>Ookla</authors>
     <owners>Muhammad Hussein Ammari</owners>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Use Speedtest® for a quick, easy, one-tap connection internet speed test—accurate anywhere thanks to our global server network.</description>
     <summary>22 billion tests and counting</summary>
-    <copyright>Copyright © 2006-2020 Ookla, LLC. All Rights Reserved</copyright>
+    <copyright>Copyright © 2006-2021 Ookla, LLC. All Rights Reserved</copyright>
     <tags>speedtest internet bandwidth network</tags>
     <packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/speedtest</packageSourceUrl>
     <docsUrl>https://support.speedtest.net/hc/en-us</docsUrl>
