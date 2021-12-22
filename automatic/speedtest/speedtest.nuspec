@@ -10,7 +10,25 @@
     <projectUrl>https://www.speedtest.net/apps/cli</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/xmha97/chocolatey-coreteampackages@master/icons/speedtest.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Use Speedtest® for a quick, easy, one-tap connection internet speed test—accurate anywhere thanks to our global server network.</description>
+    <description>Use Speedtest® for a quick, easy, one-tap connection internet speed test—accurate anywhere thanks to our global server network.
+
+## Package Parameters
+Command-line options for installer configuration:
+- `/InstallDir:PATH`
+- `/StartMenuShortcut` Do not create Start Menu Shortcut
+
+### Examples
+- Install + start menu shortcut:
+`choco install lossless-cut --params "/StartMenuShortcut"`\
+- Portable mode:
+`choco install lossless-cut --params "/InstallDir:C:\your\install\path"`\
+
+### Default Parameters
+By default, **installation** of this package:
+- Will be installed in Chocolatey tools directory.
+- The Start menu shortcut is not created.
+	
+</description>
     <summary>22 billion tests and counting</summary>
     <copyright>Copyright © 2006-2021 Ookla, LLC. All Rights Reserved</copyright>
     <tags>speedtest internet bandwidth network</tags>
