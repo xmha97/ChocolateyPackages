@@ -1,5 +1,3 @@
-# Description
-
 Use Speedtest® for a quick, easy, one-tap connection internet speed test—accurate anywhere thanks to our global server network.
 
 ## Package Parameters
@@ -17,3 +15,4 @@ Command-line options for installer configuration:
 By default, **installation** of this package:
 - Will be installed in Chocolatey tools directory.
 - The Start menu shortcut is not created.
+

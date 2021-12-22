@@ -1,1 +1,1 @@
-# Chocolatey Community Core Team Packages
+The most complete and popular Persian font package.
