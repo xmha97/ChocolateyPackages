@@ -19,9 +19,9 @@ Command-line options for installer configuration:
 
 ### Examples
 - Install + start menu shortcut:
-`choco install lossless-cut --params "/StartMenuShortcut"`\
+`choco install lossless-cut --params "/StartMenuShortcut"`
 - Portable mode:
-`choco install lossless-cut --params "/InstallDir:C:\your\install\path"`\
+`choco install lossless-cut --params "/InstallDir:C:\your\install\path"`
 
 ### Default Parameters
 By default, **installation** of this package:
