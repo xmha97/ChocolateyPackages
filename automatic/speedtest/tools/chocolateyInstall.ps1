@@ -18,7 +18,7 @@ $packageArgs = @{
 }
 Install-ChocolateyZipPackage @packageArgs
 
-$targetPath = Join-Path "$installDir" "LosslessCut.exe"
+$targetPath = Join-Path "$installDir" "speedtest.exe"
 
 # Add StartMenu shortcut
 If ( $PackageParameters.StartMenuShortcut ) {
