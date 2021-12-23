@@ -1,7 +1,7 @@
 $pkgDir = '.\automatic'
 $armPath = Join-Path $pkgDir 'README.md'
 Remove-Item $armPath -ErrorAction Ignore
-$armContent = '#Packages'
+$armContent = '# Packages'
 foreach ($d in Get-ChildItem($pkgDir) -Directory) {
     $prmPath = Join-Path $d.FullName 'README.md'
 	Remove-Item $prmPath -ErrorAction Ignore
@@ -17,7 +17,7 @@ foreach ($d in Get-ChildItem($pkgDir) -Directory) {
 	$prmContent = $specContent.package.metadata.description
 	New-Item $prmPath
 	Set-Content $prmPath $prmContent
-	$armContent = "$armContent`n[$pkgT](https://github.com/xmha97/chocolatey-coreteampackages/tree/main/automatic/$d)"
+	$armContent = "$armContent`n[$pkgT](https://github.com/xmha97/chocolatey-coreteampackages/tree/main/automatic/$d)  "
 }
 New-Item $armPath
 Set-Content $armPath $armContent
