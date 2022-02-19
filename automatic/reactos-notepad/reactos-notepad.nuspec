@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>reactos-notepad</id>
-    <version>0.4.15</version>
+    <version>0.4.15.3849</version>
     <title>ReactOS Notepad</title>
     <authors>ReactOS Development Team</authors>
     <owners>Muhammad Hussein Ammari</owners>
