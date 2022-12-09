@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>speedtest</id>
-    <version>1.1.1.1</version>
+    <version>1.2.0</version>
     <title>Speedtest by Ookla</title>
     <authors>Ookla</authors>
     <owners>Muhammad Hussein Ammari</owners>
@@ -31,7 +31,7 @@ By default, **installation** of this package:
     <summary>22 billion tests and counting</summary>
     <copyright>Copyright © 2006-2021 Ookla, LLC. All Rights Reserved</copyright>
     <tags>speedtest internet bandwidth network</tags>
-    <packageSourceUrl>https://github.com/xmha97/chocolatey-coreteampackages/tree/master/automatic/speedtest</packageSourceUrl>
+    <packageSourceUrl>https://github.com/xmha97/ChocolateyPackages/tree/main/automatic/speedtest</packageSourceUrl>
     <docsUrl>https://support.speedtest.net/hc/en-us</docsUrl>
   </metadata>
 </package>
